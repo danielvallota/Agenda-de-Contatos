@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Imagens/livro-de-contato.png" alt="icone de uma agenda telefônica">
+            <h1>Agenda de contatos</h1>
+            <br>
+        </header>
+        <form id="form-cadastro">
+            <input type="text" id="nome" placeholder="Digite o nome" required>
+            <input type="number" id="telefone" placeholder="Digite o telefone" required>
+            <input type="email" id="email" placeholder="Digite o email (opcional)">
+            <button type="submit" id="cadastrar">Cadastrar +</button>
+        </form>
+            <table cellspacing = 0>
+            <thead>
+                <tr>
+                    <th id="nome-tabela">
+                        Nome
+                    </th>
+                    <th id="telefone-tabela">
+                        Telefone
+                    </th>
+                    <th id="email-tabela">
+                        Email
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
